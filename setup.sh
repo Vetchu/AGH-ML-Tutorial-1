@@ -1,5 +1,5 @@
-pip install virtualenv
+pip3 install virtualenv
 virtualenv venv
 . venv/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python -m ipykernel install --user --name=venv
